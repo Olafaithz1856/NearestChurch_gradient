@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/style.css">
+<title>Nearest Church Locator - Prototype</title>
+<link rel='icon' href='assets/logo.svg'></head>
+<body>
+
+<header class="nav">
+  <div class="logo">
+    <img src="assets/logo.svg" alt="Logo" class="logo-img">
+    <div class="brand">
+      <h1>Nearest Church Locator</h1>
+      <small>by Shepherd Team</small>
+    </div>
+  </div>
+  <nav class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="search.html">Search</a>
+    <a href="list.html">List</a>
+    <a href="about.html">About</a>
+    <a href="chat.html">Chat</a>
+  </nav>
+</header>
+
+<main class='container'>
+  <section class='hero'>
+    <div class='left'>
+      <h2 style='margin:0 0 12px 0'>Find a church nearby — fast</h2>
+      <p class='small'>Locate churches, see details, and connect — demo UI by Shepherd Team.</p>
+      <div style='margin-top:18px;'>
+        <a href='search.html' class='btn'>Locate Churches</a>
+        <a href='chat.html' class='btn' style='margin-left:8px;background:transparent;border:1px solid var(--btn);color:var(--btn);'>Chat with Spiritual Guidance AI Bot</a>
+        <button id='theme-toggle' class='toggle' title='Toggle theme'>Toggle Theme</button>
+      </div>
+    </div>
+    <div class='right map-placeholder'>
+      <div>
+        <strong>Map Preview</strong>
+        <div class='small' style='margin-top:6px'>(Interactive map placeholder for demo)</div>
+      </div>
+    </div>
+  </section>
+
+  <section class='card-grid' style='margin-top:20px'>
+    <div class='card'><h3>Community Church</h3><p class='small'>2.1 km — 15 min</p></div>
+    <div class='card'><h3>St. Grace Church</h3><p class='small'>3.6 km — 20 min</p></div>
+    <div class='card'><h3>Hope Chapel</h3><p class='small'>4.0 km — 22 min</p></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Developed by Shepherd Team • <span class="muted">Spiritual Guidance AI Bot ready</span></p>
+</footer>
+
+<script src='assets/app.js'></script>
+</body>
+</html>
